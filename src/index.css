@@ -78,6 +78,7 @@ h1 {
   color: white;
   background: #777;
   text-transform: capitalize;
+  cursor: pointer;
 }
 
 .type-Fire { background: #f08030; }
@@ -96,3 +97,7 @@ h1 {
 .type-Ghost { background: #705898; }
 .type-Ice { background: #98d8d8; color: #333; }
 .type-Dragon { background: #7038f8; }
+
+.type-selected {
+  border: 2px solid black;
+}

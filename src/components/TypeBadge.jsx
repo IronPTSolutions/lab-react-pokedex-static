@@ -3,10 +3,12 @@
 // - Renders a <span> with className "type-badge type-<type>"
 // - The text inside the span is the type itself
 
-function TypeBadge(/* TODO destructure props here */) {
+function TypeBadge({ type, selected }) {
   return (
-    <span /* TODO className */>
-      {/* TODO type */}
+    <span
+      className={`type-badge type-${type} ${selected ? "type-selected" : ""}`}
+    >
+      {type}
     </span>
   );
 }
